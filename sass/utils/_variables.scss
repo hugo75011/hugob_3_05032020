@@ -1,0 +1,35 @@
+/* color */
+
+$color-primary: #9356DC;
+$color-secondary: #FF79DA;
+$color-tertiary: #99E2D0;
+$color-white: #fff;
+$color-gray--dark: #eaeaea;
+$color-gray--light:#f7f7f7;
+
+/* font */
+
+$font-title: 'Shrikhand', sans-serif;
+$font-text: 'Roboto', sans-serif;
+
+/**/
+
+$card-radius: 20px;
+$card-radius--right: 0px 20px 20px 0px;
+
+/*margins*/
+
+$title-margin: 1rem 0rem;
+
+/*padding*/
+
+$label-padding: 1rem 2rem;
+$booking-padding: 2rem 0rem;
+
+/*medai breakpoints*/
+
+$breakpoints: (
+    tablet: 768px,
+    large-tablet: 1024px,
+    desktop: 1280px
+)

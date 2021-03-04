@@ -1,0 +1,24 @@
+.btn {
+    border-radius: 100px;
+    height: 4.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    @include shadow;
+    transition: all 500ms;
+    outline: none;
+    cursor: pointer;
+    &:hover {
+        @include shadow-hover;
+    }
+    &--gradient {
+        color: $color-white;
+        background: linear-gradient(to bottom right, $color-secondary, $color-primary);
+        &:hover {
+            background: linear-gradient(to bottom right, lighten($color-secondary, 10%), lighten($color-primary, 10%));
+        }
+    }
+    &--order {
+        height: 5rem;
+        padding: 1rem 7rem;
+    }
+}

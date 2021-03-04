@@ -1,0 +1,53 @@
+body {
+    font-family: $font-text;
+    font-size: 1.4rem;
+    font-weight: 100;
+}
+
+/* Menu restaurant name */
+
+h1 {
+    font-family: $font-title;
+    font-weight: 300;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/* section titles*/
+h2 {
+    font-family: $font-text;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: $font-text;
+    font-weight: 900;
+}
+
+h4 {
+    font-family: $font-text;
+    font-weight: 100;
+}
+
+/* menu section titles */
+
+h5 {
+    font-family: $font-text;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+p {
+    font-family: $font-text;
+    font-size: 1rem;
+    font-weight: 300;
+    @media screen and (min-width: map-get($breakpoints, tablet)) {
+        font-size: 1.2rem;
+    }
+}
+
+button {
+    font-family: $font-text;
+    font-weight: 500;
+    font-size: 1.5rem;
+}

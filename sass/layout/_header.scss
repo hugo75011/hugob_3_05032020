@@ -1,0 +1,19 @@
+.header {
+    @include flex-center;
+    background: $color-white;
+    height: 7rem;
+    width: 100%; 
+    position: relative;
+    z-index: 1;
+    @include header-shadow;  
+    &__logo {
+        height: 2.5rem;
+    }
+    &__return {
+        transform: translate(50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        font-size: 2rem;
+    }
+}
