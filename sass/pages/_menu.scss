@@ -84,6 +84,7 @@
                 }
             &-meal {
                 display: flex;
+
                 &-info {
                     padding: 1rem;
                     @media screen and (min-width: map-get($breakpoints, tablet)) {
@@ -124,25 +125,23 @@
                     width: 0rem;
                     overflow: hidden;
                     &-container{
-                    height: 100%;
-                    width: 100%;
-                    overflow: hidden;
-                    background-color: $color-tertiary;
-                    color: $color-white;
-                    border-radius: $card-radius--right;
-                    position: relative;
-                    display: block;
-                        i {
-                            position: absolute;
-                            font-size: 2rem;
-                            top: 50%;
-                            left: 50%;
-                            transform: translate(50%,-50%) rotate(90deg);
-                        }
-                    
-                }
-            }
-                    
+                        height: 100%;
+                        width: 100%;
+                        overflow: hidden;
+                        background-color: $color-tertiary;
+                        color: $color-white;
+                        border-radius: $card-radius--right;
+                        position: relative;
+                        display: block;
+                            i {
+                                position: absolute;
+                                font-size: 2rem;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(50%,-50%) rotate(90deg);
+                            }
+                    }
+                }    
                 &:hover > &--select {
                     width: 6rem;
                     transform: scaleX(1);
