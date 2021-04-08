@@ -67,6 +67,7 @@
                     }
                 }
         }
+        /* https://www.ice-dev.com/decoupe-html-css/sass-lecon-5-les-conditions-et-les-boucles */
         &-card {
             @for $i from 1 through 3 {
                 &--#{$i} {

@@ -444,6 +444,7 @@ button {
   background-color: #f7f7f7;
   position: relative;
   z-index: 1;
+  /* https://www.ice-dev.com/decoupe-html-css/sass-lecon-5-les-conditions-et-les-boucles */
 }
 .menu__choices-title {
   display: inline-block;
