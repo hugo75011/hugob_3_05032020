@@ -476,13 +476,13 @@ button {
   animation-name: fade-in;
   animation-duration: 750ms;
   animation-fill-mode: both;
-  animation-delay: 1000ms;
+  animation-delay: 500ms;
 }
 .menu__choices-card--3 {
   animation-name: fade-in;
   animation-duration: 750ms;
   animation-fill-mode: both;
-  animation-delay: 1500ms;
+  animation-delay: 500ms;
 }
 @media screen and (min-width: 1024px) {
   .menu__choices-card {
@@ -491,7 +491,6 @@ button {
 }
 .menu__choices-card-meal {
   display: flex;
-  backface-visibility: hidden;
 }
 .menu__choices-card-meal-info {
   padding: 1rem;
