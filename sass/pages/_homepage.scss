@@ -81,14 +81,14 @@
     &__card {
         height: 20rem;
         width: 100%;
-        max-width: 35rem;
+        max-width: 28rem;
         margin: 2rem 0rem;
             @media screen and (min-width: map-get($breakpoints, tablet)){
                 margin: 1.2rem;
                 width: 45%;
             }
             @media screen and (min-width: map-get($breakpoints, large-tablet)){
-                height: 25rem;
+                height: 18rem;
                 margin: 1.4rem;
             }
             @media screen and (min-width: map-get($breakpoints, desktop)){
