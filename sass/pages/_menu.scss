@@ -118,6 +118,7 @@
                         }
                     }
                 }
+
                 &--select {
                     transform: scaleX(0);
                     transform-origin: right;
@@ -141,7 +142,7 @@
                                 transform: translate(50%,-50%) rotate(90deg);
                             }
                     }
-                }    
+                } 
                 &:hover > &--select {
                     width: 6rem;
                     transform: scaleX(1);
@@ -149,13 +150,13 @@
                         transform: translate(-50%,-50%) rotate(360deg);
                         transition: transform 400ms ease-in-out;
                     }
-                }
+                } 
 
                 
             } 
         }
     }
-    /* Order */
+    /* Order button*/
     &__order {
         @include flex-center;
     }
