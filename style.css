@@ -43,6 +43,15 @@ td, th {
   padding: 0;
 }
 
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+a:visited, a:hover, a:active {
+  color: inherit;
+}
+
 /* color */
 /* font */
 /**/
@@ -71,6 +80,10 @@ td, th {
   top: 50%;
   left: 5%;
   font-size: 2rem;
+}
+
+html {
+  font-size: 12px;
 }
 
 @keyframes fade-in {
