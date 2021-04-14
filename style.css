@@ -315,8 +315,8 @@ html {
 
 .container {
   height: 100%;
-  max-width: 1280px;
-  margin: auto;
+  /*max-width: 1280px;
+  margin: auto;*/
   width: 100%;
   padding: 4rem 2rem;
 }
