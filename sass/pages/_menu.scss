@@ -5,14 +5,14 @@
         &-image{
             position: relative;
             width: 100%;
-            height: 20rem;
+            height: auto;
                 @media screen and (min-width: map-get($breakpoints, tablet)){
                     height: 40rem;
                 }
                 @media screen and (min-width: map-get($breakpoints, large-tablet)){
                     height: 50rem;
                 }
-                @media screen and (min-width: map-get($breakpoints, large-tablet)){
+                @media screen and (min-width: map-get($breakpoints, desktop)){
                     height: 80rem;
                 }
             z-index: 0;
