@@ -184,6 +184,9 @@ html {
                 height: 3.5rem;
                 width: 9rem;
             }
+            @media screen and (max-width: 400px){
+                left:58%;
+            }
         }
         &-label {
             @include flex-between;
@@ -206,7 +209,7 @@ html {
             transition: all 500ms;
             -webkit-transition: all 500ms;
             &:hover {
-                -webkit-text-stroke: 1px transparent;
+                -webkit-text-stroke: 0px transparent;
                 background: linear-gradient(to bottom right, $color-secondary, $color-primary);
                 background-clip: text;
                 -webkit-background-clip: text;
