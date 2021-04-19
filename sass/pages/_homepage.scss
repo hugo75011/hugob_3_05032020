@@ -141,7 +141,7 @@ html {
 .restaurant {
     background-color: $color-gray--light;
     &__container {
-        @media screen and (min-width: map-get($breakpoints, tablet)){
+        @media screen and (min-width: map-get($breakpoints, mobile)){
             @include flex-center;
             flex-wrap: wrap;
             padding: 2rem 0rem;
