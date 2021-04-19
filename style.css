@@ -417,6 +417,11 @@ body {
   font-size: 1.4rem;
   font-weight: 100;
 }
+@media screen and (max-width: 380px) {
+  body {
+    font-size: 1.3rem;
+  }
+}
 
 /* Menu restaurant name */
 h1 {
