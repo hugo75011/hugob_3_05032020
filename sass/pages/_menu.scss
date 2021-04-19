@@ -10,10 +10,10 @@
                     height: 40rem;
                 }
                 @media screen and (min-width: map-get($breakpoints, large-tablet)){
-                    height: 50rem;
+                    height: 47rem;
                 }
                 @media screen and (min-width: map-get($breakpoints, desktop)){
-                    height: 80rem;
+                    height: 70rem;
                 }
             z-index: 0;
         }

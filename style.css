@@ -486,12 +486,12 @@ button {
 }
 @media screen and (min-width: 1024px) {
   .menu__restaurant-image {
-    height: 50rem;
+    height: 47rem;
   }
 }
 @media screen and (min-width: 1280px) {
   .menu__restaurant-image {
-    height: 80rem;
+    height: 70rem;
   }
 }
 .menu__title {
